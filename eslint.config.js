@@ -19,6 +19,7 @@ export default tseslint.config(
 		},
 		rules: {
 			...reactHooks.configs.recommended.rules,
+			"no-empty-interface": false,
 			"@typescript-eslint/no-explicit-any": "off",
 			"@typescript-eslint/no-unused-vars": ["error"],
 			"no-unused-vars": "off",

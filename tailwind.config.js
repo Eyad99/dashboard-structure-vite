@@ -145,7 +145,7 @@ export default {
   			lightPrimary: '#F4F7FE',
   			blueSecondary: '#4318FF',
   			brandLinear: '#868CFF',
-  			gray: {
+   			gray: {
   				'50': '#F5F6FA',
   				'100': '#EEF0F6',
   				'200': '#DADEEC',
@@ -390,7 +390,7 @@ export default {
   				'900': '#0B2826',
   				'950': '#051413'
   			},
-  			horizonPurple: {
+  			blue: {
   				'50': '#EFEBFF',
   				'100': '#E9E3FF',
   				'200': '#422AFB',

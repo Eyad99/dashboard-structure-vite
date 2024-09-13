@@ -1,4 +1,5 @@
 import SignIn from '@/views/auth/signIn';
+import SignUp from '@/views/auth/signUp';
 import NotFound from '@/views/not-found';
 
 const AuthRoutes = [
@@ -7,6 +8,12 @@ const AuthRoutes = [
 		layout: '/auth',
 		path: '/sign-in',
 		component: <SignIn />,
+	},
+	{
+		name: 'sign-up',
+		layout: '/auth',
+		path: '/sign-up',
+		component: <SignUp />,
 	},
 
 	{
